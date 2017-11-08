@@ -1,0 +1,17 @@
+{
+ "name": "PomodoroFocus",
+ "description": "",
+ "background_page" : "background.html",
+ "options_page": "options.html",
+ "icons": {
+ "16" : "",
+ "48" : "",
+ "128" : ""
+ },
+ "browser_action": {
+ "default_icon": "",
+ "default_title": "GawkBlocker",
+ "default_popup": "popup.html"
+ },
+ "permissions": ["tabs"]
+}
