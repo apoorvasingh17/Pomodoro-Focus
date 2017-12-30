@@ -1,6 +1,6 @@
 console.log("bgscript init");
 var blockState = false;
-var expiryTime = 30000;//block sites for 10 seconds
+var expiryTime = 30000;//block sites for 30 seconds
 var timeleft = 0;
 function startTimer() {
     console.log('timerStart');
