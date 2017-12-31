@@ -3,7 +3,7 @@
   "name": "Pomodoro Focus",
   "description": "Block multiple sites to focus better on your work",
   "background": { 
-                    "scripts": ["block.js"]
+                    "scripts": ["background.js"]
                 },
   "version": "1.0",
 
@@ -13,7 +13,7 @@
     "default_popup": "options.html"
   },
   "permissions": [
-    "webRequest", "webRequestBlocking",
+    "webRequest", "webRequestBlocking", "<all_urls>",
     "http://*/*", "https://*/*"
   ]
 
