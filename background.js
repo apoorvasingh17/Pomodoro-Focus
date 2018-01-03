@@ -42,6 +42,6 @@ chrome.webRequest.onBeforeRequest.addListener(
     }, 
 
     {
-        urls: ["http://*/*", "https://*/*"]//edit here to load urls from localstorage as an array of strings like "*://*.facebook.*/*" also refresh background script whenever list is updated
+        urls: ["http://*/*", "https://*/*"]
     }, ["blocking"]
 );
