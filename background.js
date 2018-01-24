@@ -1,11 +1,11 @@
 console.log("bgscript init");
 var blockState = false;
-var expiryTime = 1500;
+var expiryTime = 1500000;
 var timeleft = 0;
 function startTimer() {
     console.log('timerStart');
     blockState = true;
-    timeleft = expiryTime/60;
+    timeleft = expiryTime/1000;
     var timerDeduct = setInterval(function () {
         timeleft--;
     }, 1000);

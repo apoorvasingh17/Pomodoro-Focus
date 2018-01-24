@@ -6,7 +6,11 @@ var myTime = chrome.extension.getBackgroundPage().getTimeLeft();
 console.log(myTime);
 var decTimer = setInterval(function () {
   checkTimeout();
-  document.getElementById('timeLeft').innerText = myTime +" seconds left.";
+
+  var num = myTime/60;
+  var n = num.toFixed(2);
+
+  document.getElementById('timeLeft').innerText = n +" minutes left.";
   if(myTime==0){
     clearInterval(decTimer);
     return;
