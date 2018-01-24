@@ -14,7 +14,7 @@ var decTimer = setInterval(function () {
   myTime--;
 }, 1000);
 function checkTimeout() {
-  if(myTime==0){
+  if(myTime==0||myTime<0){
     document.getElementById("startTimer").style.display = 'block';
     document.getElementById("timeLeft").style.display = 'none';
 
