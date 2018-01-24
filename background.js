@@ -30,15 +30,12 @@ chrome.webRequest.onBeforeRequest.addListener(
 
         for (var match in blacklist) {
             var str = blacklist[match];
-            if (blockState && str !== "" && info.url.match(new RegExp(str))) {
-                return {cancel: blockState};
+            if (blockState===true && str !== "" && info.url.match(new RegExp(str))) {
+                return {cancel: true};
             }
-            else return {cancel: blockState};
+            else return {cancel: false};
         }
-
         return;
-
-
     }, 
 
     {
