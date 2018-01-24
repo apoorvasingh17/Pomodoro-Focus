@@ -15,10 +15,6 @@ function startTimer() {
         clearInterval(timeleft);
     }, expiryTime);
 }
-/*function forceEndSession() {
-    blockState = false;  
-    clearInterval(timeleft);
-} */
 
 function getTimeLeft(){
     return timeleft;
