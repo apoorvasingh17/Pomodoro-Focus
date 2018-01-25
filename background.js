@@ -27,9 +27,9 @@ chrome.webRequest.onBeforeRequest.addListener(
         for (var match in blacklist) {
             var str = blacklist[match];
             if (blockState===true && str !== "" && info.url.match(new RegExp(str))) {
-                return {cancel: true};
+                return {cancel: blockState};
             }
-            else return {cancel: false};
+            else if(blockState===false) return {cancel: false};
         }
         return;
     }, 
