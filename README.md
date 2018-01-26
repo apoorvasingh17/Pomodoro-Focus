@@ -1,7 +1,9 @@
 # Pomodoro-Focus
-PomodoroFocus is a web extension that helps you focus on your work by temporarily blocking distracting websites. After the block timer of 25 minutes runs out, your websites are available for you to view again.
+Pomodoro Focus is a web extension that helps you focus on your work by temporarily blocking distracting websites. After the block timer of 25 minutes runs out, your websites are available for you to view again.
 
 This has been inspired by the Pomodoro Technique. 
+
+Pomodoro Focus on Chrome Web Store: https://chrome.google.com/webstore/detail/pomodoro-focus/gommonmfpieokloaboibjlahdcffignp?utm_source=gmail
 
 
 
